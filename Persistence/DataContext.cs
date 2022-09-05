@@ -11,7 +11,6 @@ namespace Persistence
     {
         public DataContext(DbContextOptions options) : base(options)
         {
-            //temp proba
         }
 
         public DbSet<Activity> Activities { get; set; }
